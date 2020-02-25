@@ -23,7 +23,7 @@
         </h4>
         <ul>
             <li>- 一个简易的电商后台管理系统，实现对用户、权限、商品、订单的管理，整理出开发文档.</li>
-            <li>- 前端技术栈包括 Vue、Vue-router、Element-UI、Axios、Echarts，后端技术栈包括 Node.js、Express、Jwt、Mysql、Sequelize.</li>
+            <li>- 前端技术栈包括 Vue、Vue-router、Element-UI、Axios、Echarts.</li>
             <li>- 网址：<a href="http://123.57.5.190/">http://123.57.5.190/</a> 账号：admin 密码：123456.</li>
         </ul>
         <h4 class="row">
