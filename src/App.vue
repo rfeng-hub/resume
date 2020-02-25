@@ -3,9 +3,8 @@
         <name></name>
         <education></education>
         <skill></skill>
-        <work></work>
         <project></project>
-        <profile></profile>
+        <honour></honour>
         
     </div>
 </template>
@@ -15,8 +14,7 @@ import Name from "./components/Name";
 import Education from "./components/Education";
 import Skill from "./components/Skill";
 import Project from './components/Project';
-import Work from './components/Work';
-import Profile from './components/Profile';
+import Honour from './components/Honour';
 
 export default {
     components: {
@@ -24,8 +22,7 @@ export default {
         Education,
         Skill,
         Project,
-        Work,
-        Profile
+        Honour
     }
 };
 </script>

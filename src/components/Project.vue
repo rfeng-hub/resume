@@ -1,46 +1,57 @@
 <template>
-    <div>
+    <div class="cell">
         <h3>项目经历</h3>
         <h4 class="row">
-            <span>蓝灯鱼智能检索平台</span>
-            <span>2018.10-至今</span>
+            <span>外勤通-审批工单管理</span>
+            <span>2019.12-至今</span>
         </h4>
         <ul>
-            <li>- 前端使用Vue\Nuxt ElementUI, 制定前端开发规范, 构建前端开发框架, 同时担任UI设计, 完成所有页面编写.</li>
-            <li>- 后台使用Nest.js, 重新制定后台开发规范, 规范鉴权逻辑, 规范异常处理, 添加多语言, 添加统一的字段验证, 分离业务代码与功能代码. 重构后台开发框架, 制定API交互规范.</li>
-            <li>- 编写CircleCI脚本, 构建持续集成, 持续交付, 持续部署流程. 使用 Minio 完成文件服务器构建, 分离算法层, 业务层, 文件层, 构建基于Redis的缓存层. 构建基于Git Flow的开发流程.</li>
-            <li>
-                - 项目开发预览地址:
-                <a href="https://dev.lanternfish.ai">https://dev.lanternfish.ai</a> 使用任意账号密码登录
-            </li>
+            <li>- 负责审批工单管理的设计与开发，包括模板管理、数据导出、自定义打印、数据统计可视化等九个页面；同步输出设计文档.</li>
+            <li>- 主要使用了 HTML+CSS+JS 完成基本功能的实现，借助 Layui、Echarts 等框架和库完成部分功能.</li>
         </ul>
         <h4 class="row">
-            <span>北京邮电大学 长顺志愿扶贫项目</span>
-            <span>2017.10-2018.6</span>
+            <span>校友卡管理平台</span>
+            <span>2019.10-2019.11</span>
         </h4>
         <ul>
-            <li>- 响应国家, 学校号召, 为国家贫困县开发农产品信息发布平台.</li>
-            <li>- 担任技术负责人。 负责产销对接平台的架构与开发, 前端使用 Vue Vuetify, 后端使用 Prisma 提供 GraphQL API. 负责景区售票平台的前端开发, 使用Vue Element. 负责产销对接可视化数据库客户端的开发, 使用Vue Electron</li>
-            <li>
-                - 项目地址:
-                <a href="https://github.com/ymz-studio/cshunWebsite">https://github.com/ymz-studio/cshunWebsite</a>
-                &nbsp;
-                <a
-                    href="https://github.com/ymz-studio/cshun-website-prisma"
-                >https://github.com/ymz-studio/cshun-website-prisma</a>
-                &nbsp;
-                <a
-                    href="https://github.com/ymz-studio/cshunTool"
-                >https://github.com/ymz-studio/cshunTool</a>
-            </li>
+            <li>- 基于项目原型开发校友卡管理平台第一版，完成接口对接与调试；参与原型调整讨论会议，实现原型调整后的第二版.</li>
+            <li>- 开发技术主要是 Vue+Layui，传统的管理系统布局，iframe 作为主体内容显示区域.</li>
         </ul>
         <h4 class="row">
-            <span>国家教育部 产学合作协同育人</span>
-            <span>2017.6 - 2017.10</span>
+            <span>电商后台管理系统</span>
+            <span>2020.01-2020.02</span>
         </h4>
         <ul>
-            <li>- 以腾讯公司微信校园卡项目为载体, 建设校园电子校园卡服务.</li>
-            <li>- 担任项目负责人。 负责项目整体的架构开发以及行政对接. 前端使用 Bootstrap Jquery, 后端使用 Django 进行服务端渲染.</li>
+            <li>- 一个简易的电商后台管理系统，实现对用户、权限、商品、订单的管理，整理出开发文档.</li>
+            <li>- 前端技术栈包括 Vue、Vue-router、Element-UI、Axios、Echarts，后端技术栈包括 Node.js、Express、Jwt、Mysql、Sequelize.</li>
+            <li>- 网址：<a href="http://123.57.5.190/">http://123.57.5.190/</a> 账号：admin 密码：123456.</li>
+        </ul>
+        <h4 class="row">
+            <span>基于网络爬虫的电影票比价系统</span>
+            <span>2019.01-2019.05</span>
+        </h4>
+        <ul>
+            <li>- 使用 Python 编写网络爬虫，从猫眼、淘票票、糯米、时光网上获取全国所有城市的所有电影院里正在
+上映的电影的排片信息，制作成一个基于上述四家购票平台的电影票比价系统，编写前端页面进行展
+示，帮助用户购买到更优惠的电影票.</li>
+        </ul>
+        <h4 class="row">
+            <span>基于深度学习的短文本数据挖掘模型与展示</span>
+            <span>2018.01-2018.07</span>
+        </h4>
+        <ul>
+            <li>- 针对互联网上的用户对产品的评论，根据情感倾向对数据加以分类，分别通过深度学习当中的卷积神经
+网络(CNN)和循环神经网络(RNN)技术建立两种产品的数据挖掘模型并予以展示，通过对比两种模型的
+性能，借鉴并不断改进。可供用户清晰的掌握互联网用户对产品的印象，使得用户对某种产品能够有更
+加清晰的认识和评价，同时让产品的制造商获得大众的反馈以对自己的产品进行合理的改进.</li>
+        </ul>
+        <h4 class="row">
+            <span>小样本物体识别系统</span>
+            <span>2018.04-2018.06</span>
+        </h4>
+        <ul>
+            <li>- 基于 Omniglot 数据集，用卷积神经网络设计模型。 给定一张图片，能够实时输出预测类型。系统能够
+备份训练好的模型参数，并且能够载入已有的模型参数.</li>
         </ul>
     </div>
 </template>
